@@ -1,3 +1,5 @@
+import scala.io.StdIn.readInt;
+
 object q3 extends App {
     var b:Int = 0;
     def sum(a:Int): Unit={
@@ -6,5 +8,7 @@ object q3 extends App {
         else print(b); 
     }
 
-    sum(5);
+    print("Input a value:");
+    var value = readInt();
+    sum(value);
 }

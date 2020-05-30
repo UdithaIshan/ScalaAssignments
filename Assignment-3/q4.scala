@@ -1,3 +1,5 @@
+import scala.io.StdIn.readInt;
+
 object q4 extends App {
     def check(a:Int) : Unit = {
         if(a%2 == 0) {
@@ -12,5 +14,7 @@ object q4 extends App {
         check(a - 1);
     }
 
-    check(10);
+    print("Enter a number to get odd even values: ");
+    var value = readInt();
+    check(value);
 }

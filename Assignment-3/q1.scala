@@ -1,3 +1,5 @@
+import scala.io.StdIn.readInt;
+
 object q1 extends App {
     def gcd(a:Int, b:Int):Int=b match{
         case 0 => a;
@@ -10,6 +12,8 @@ object q1 extends App {
         case x => prime(a,x+1);
     }
 
-    print(prime(5));
+    print("Input a value:");
+    var value = readInt();
+    print(prime(value));
     
 }

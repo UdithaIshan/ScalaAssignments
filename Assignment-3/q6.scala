@@ -1,3 +1,5 @@
+import scala.io.StdIn.readInt;
+
 object q6 extends App{
     def fibo(x : Int) : Int = x match{
         case x if x == 0 => 0;
@@ -8,5 +10,8 @@ object q6 extends App{
         if (x > 0) fiboSeq(x - 1);
         println(fibo(x));
     }
-    fiboSeq(20);
+
+    print("Input a value to get fibonacci sequence :");
+    var value = readInt();
+    fiboSeq(value);
 }

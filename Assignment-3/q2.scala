@@ -1,3 +1,5 @@
+import scala.io.StdIn.readInt;
+
 object q2 extends App {
     def gcd(a:Int, b:Int):Int=b match{
         case 0 => a;
@@ -11,8 +13,10 @@ object q2 extends App {
     }
     def primeSeq(n:Int) : Unit={
         if (prime(n)) println(n);
-        if(n>0) primeSeq(n-1);
+        if(n>0) primeSeq(-n+1);
     }
 
-    primeSeq(10);
+    print("Input a value:");
+    var value = readInt();
+    primeSeq(value);
 }
