@@ -12,8 +12,10 @@ object q2 extends App {
         case x => prime(a,x+1);
     }
     def primeSeq(n:Int) : Unit={
-        if (prime(n)) println(n);
-        if(n>0) primeSeq(-n+1);
+        if(n>1){
+            primeSeq(n-1);
+            if (prime(n)) println(n);
+        }
     }
 
     print("Input a value:");
