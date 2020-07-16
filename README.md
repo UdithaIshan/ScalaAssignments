@@ -1,5 +1,5 @@
 # Scala Assignments
-### SCS2204_2020
+### [SCS2204_2020](https://ugvle.ucsc.cmb.ac.lk/course/view.php?id=278)
 
 
 - **Assignment 1**
