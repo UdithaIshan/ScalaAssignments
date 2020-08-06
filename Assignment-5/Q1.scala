@@ -1,7 +1,7 @@
 object Q1 extends App {
     val obj = new Rational(1,2)
     val objj = new Rational(4,5)
-    println(obj)
+    println(obj.neg)
     val q = obj.add(objj)
     println(q)
 }
