@@ -41,5 +41,30 @@ The Caesar cipher is one of the earliest known and simplest ciphers. It is a typ
 2. Then implement a Cipher function which take Encryption and Decryption functions to process the data.
 
 
+- **Assignment 5**
+
+1. Implement a Data Structure for Rational Number and create a method neg to class Rational that is used like this: x.neg // evaluates to -x
+2. Create a method sub to subtract two rational numbers and find an answer  x-y-z where x=3/4, y=5/8, z=2/7.
+3. Implement a Data Structure for Account and create a method transfer which transfer the money from this account to a given account.
+4.  A Bank defines as List of Accounts. So implement the following functions:
+4.1 List of Accounts with negative balances
+4.2 Calculate the sum of all account balances
+4.3 Calculate the final balances of all accounts after apply the interest function as fallows: 
+If balance is positive, deposit interest is .05  and if balance is negative, overdraft interest is .1
+
+
+
+
+- **Assignment 6**
+
+Implement a case class Point(x,y) and create following methods:
+1. add(+) should add two given points
+2. move should move a point by a given distance dx and dy
+3. distance should return the distance between two given points
+4. invert should switch the x and y coordinates.
+
+
+
+
 
 
